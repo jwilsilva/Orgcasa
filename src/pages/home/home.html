@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Casa</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Inicio</h2>
+<ion-content class="card-background-page">
+
+  <ion-card (click)="paginaMercado()">
+    <div class="imgMenu"><img src="assets/imgs/mercaionic.jpg"/></div>
+    <div class="tituloMenu">mercado</div>
+    <div class="card-subtitle">41 Listings</div>
+  </ion-card>
+
+
+
+<ion-card>
+  <ion-list>
+  <ion-label> esse</ion-label>
+  <ion-input value="{{numero1}}"></ion-input> 
+  </ion-list>  
+    <ion-list>
+     <ion-label> esse</ion-label>
+  <ion-input value="{{numero2}}" ></ion-input> 
+  </ion-list>
+  <button (click)="somar(numero1, numero2)"> somaar</button> 
+</ion-card>
+
+</ion-content>
